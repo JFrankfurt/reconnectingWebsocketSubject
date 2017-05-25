@@ -10,7 +10,7 @@ import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/takeWhile';
 
 @Injectable()
-export class RxWebsocketSubject<T> extends Subject<T> {
+export class ReconnectingWebsocketSubject<T> extends Subject<T> {
   private reconnectionObservable: Observable<number>;
   private wsSubjectConfig: WebSocketSubjectConfig;
   private socket: WebSocketSubject<any>;

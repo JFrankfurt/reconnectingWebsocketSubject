@@ -1,0 +1,49 @@
+{
+  "name": "reconnectingwebsocketsubject",
+  "version": "0.0.1",
+  "description": "reconnecting extenstion of the rxjs websocketSubject",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFrankfurt/reconnectingWebsocketSubject.git"
+  },
+  "keywords": [
+    "angular",
+    "websocket",
+    "rxjs",
+    "reconnecting",
+    "subject"
+  ],
+  "author": "Jordan Frankfurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JFrankfurt/reconnectingWebsocketSubject/issues"
+  },
+  "homepage": "https://github.com/JFrankfurt/reconnectingWebsocketSubject#readme",
+  "devDependencies": {
+    "@angular/common": "4.1.3",
+    "@angular/compiler": "4.1.3",
+    "@angular/compiler-cli": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/platform-browser": "4.1.3",
+    "@angular/platform-browser-dynamic": "4.1.3",
+    "@types/node": "6.0.45",
+    "marked": "^0.3.6",
+    "phantomjs-prebuilt": "^2.1.7",
+    "reflect-metadata": "0.1.3",
+    "rollup": "^0.41.6",
+    "rxjs": "^5.0.3",
+    "ts-loader": "^1.0.0",
+    "typescript": "2.2.2",
+    "webpack": "2.3.3",
+    "json-loader": "^0.5.4",
+    "zone.js": "^0.8.5"
+  },
+  "peerDependencies": {
+    "@angular/core": "4.1.3",
+    "@angular/common": "4.1.3",
+    "rxjs": "5.4.0"
+  }
+}
